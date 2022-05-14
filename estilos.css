@@ -48,7 +48,7 @@ li a.active, li a:hover{
 }
 
 @media (max-width: 952px){
-    .enlace{
+    .logo{
         padding-left: 20px;
     }
     nav ul li a{
@@ -99,7 +99,7 @@ main {
     text-align: center;
     color: #494949;
     letter-spacing: 3px;
-    margin: 80px 0 50px 0;
+    margin: 200px 0 50px 0;
 }
 
 .texto-principal {
@@ -139,13 +139,23 @@ main {
     background-color: black;
 }
 
-.tarjeta-tema p, b{
+.tarjeta-tema p{
     margin: 0;
     color: #494949;
 }
 
 .img-tarjeta-tema {
-    width: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+table {
+    width: 100%;
+}
+ 
+th, td {
+    width: 30%;
+    text-align: center;
 }
 
 /*FOOTER*/
